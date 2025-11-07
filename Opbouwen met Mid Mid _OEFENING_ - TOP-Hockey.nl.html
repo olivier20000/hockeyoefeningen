@@ -1,0 +1,854 @@
+﻿<!DOCTYPE html>
+<html lang="nl">
+<head>
+
+    <!-- Google Tag Manager -->
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-K2WRTLZW');</script>
+    <!-- End Google Tag Manager -->
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+            <title>Opbouwen met Mid Mid [OEFENING] - TOP-Hockey.nl</title>
+    	
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script>
+        //jQuery.noConflict();
+    </script>
+
+    <link href="https://top-hockey.nl/wp-content/themes/generatepress_child/assets/css/style_tophockey.css?v=1762498318" rel="stylesheet"/>
+    <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" type="text/css">
+    
+    <link href="https://top-hockey.nl/wp-content/themes/generatepress_child/sb-admin-pro/dist/css/styles.css" rel="stylesheet"/>
+    <link href="https://top-hockey.nl/wp-content/themes/generatepress_child/assets/fontawesome/css/all.min.css" rel="stylesheet"/>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js" defer></script>
+    <script>
+        feather.replace();
+    </script>
+
+    <!-- Favicon for browser tabs and address bars -->
+    <link rel="icon" href="https://top-hockey.nl/wp-content/themes/generatepress_child/img/top-hockey-nl-logo-16-16.webp" sizes="16x16" />
+    <link rel="icon" href="https://top-hockey.nl/wp-content/themes/generatepress_child/img/top-hockey-nl-logo-32-32.webp" sizes="32x32" />
+    <link rel="icon" href="https://top-hockey.nl/wp-content/themes/generatepress_child/img/top-hockey-nl-logo-48-48.webp" sizes="48x48" />
+    <!-- Apple touch icon (for iOS devices home screen) -->
+    <link rel="apple-touch-icon" href="https://top-hockey.nl/wp-content/themes/generatepress_child/img/top-hockey-nl-logo-180-180.webp" sizes="180x180" />
+    <!-- Android home screen icon and Web App icon -->
+    <link rel="icon" href="https://top-hockey.nl/wp-content/themes/generatepress_child/img/top-hockey-nl-logo-192-192.webp" sizes="192x192" />
+    <!-- High-resolution icon for web apps and Android -->
+    <link rel="icon" href="https://top-hockey.nl/wp-content/themes/generatepress_child/img/top-hockey-nl-logo.webp" sizes="512x512" />
+
+    <!-- TinyMCE -->
+	<script src="https://top-hockey.nl/wp-content/themes/generatepress_child/js/tinymce/js/tinymce_8.0.2/tinymce/js/tinymce/tinymce.min.js" referrerpolicy="origin"></script>
+
+    <script>
+        tinymce.init({
+        selector: '#wysiwyg1,#wysiwyg2,#wysiwyg3',
+        license_key: 'gpl',
+        language: 'nl',
+        relative_urls: false,
+        convert_urls: false,
+        remove_script_host: false,
+        plugins: [
+            'advlist autolink lists link image charmap print preview anchor pagebreak',
+            'searchreplace wordcount visualblocks visualchars code fullscreen',
+            'insertdatetime media nonbreaking save table directionality',
+            'emoticons template paste textpattern'
+        ],
+        menubar: false,
+        statusbar: true,
+        resize: 'vertical',
+        height: 280,
+        toolbar: 'bold italic | forecolor backcolor | bullist numlist outdent indent | link | undo redo',
+        branding: false
+        });
+    </script>
+
+    <!-- Android app promo -->
+    <script src="https://top-hockey.nl/wp-content/themes/generatepress_child/assets/js/app-promo/app-promo.js" defer></script>
+
+
+    	
+</head>
+<body class="nav-fixed">
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K2WRTLZW"
+    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
+
+    <nav class="topnav navbar navbar-expand shadow justify-content-between justify-content-sm-start navbar-light bg-white" id="sidenavAccordion">
+        <!-- Sidenav Toggle Button-->
+        <button class="btn btn-icon btn-transparent-dark order-1 order-lg-0 me-2 ms-lg-2 me-lg-0" id="sidebarToggle"><i data-feather="menu"></i></button>
+        <!-- Navbar Brand-->
+        <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="https://top-hockey.nl/dashboard/">
+            TOP-Hockey.nl
+        </a>
+ 
+        <!-- Navbar Items-->
+        <ul class="navbar-nav align-items-center ms-auto">
+            <!-- Documentation Dropdown-->
+            <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+                <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <div class="fw-500">Community</div>
+                    <i class="fas fa-chevron-right dropdown-arrow"></i>
+                </a>
+                <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">            
+                                                <a class="dropdown-item py-3" href="https://top-hockey.nl/ideeenhub/">
+                                <div class="icon-stack bg-primary-soft text-primary me-4"><i class="fas fa-regular fa-lightbulb"></i></div>
+                                <div>
+                                    <div class="small text-gray-500">Idee├½nhub</div>
+                                    Bepaal onze volgende stap
+                                </div>
+                            </a>
+                                            
+                    <div class="dropdown-divider m-0"></div>
+                    
+                    <a class="dropdown-item py-3" href="https://top-hockey.nl/leaderboard/">
+                        <div class="icon-stack bg-primary-soft text-primary me-4"><i data-feather="award"></i></div>
+                        <div>
+                            <div class="small text-gray-500">Leaderboard</div>
+                            Bekijk welke trainers de meeste impact maken
+                        </div>
+                    </a>
+                    <div class="dropdown-divider m-0"></div>
+                    <a class="dropdown-item py-3" href="https://top-hockey.nl/changelog/">
+                        <div class="icon-stack bg-primary-soft text-primary me-4"><i data-feather="file-text"></i></div>
+                        <div>
+                            <div class="small text-gray-500">Changelog</div>
+                            Updates en wijzigingen
+                        </div>
+                    </a>
+                    <div class="dropdown-divider m-0"></div>
+                    <a class="dropdown-item py-3" href="/contact/" target="_blank">
+                        <div class="icon-stack bg-primary-soft text-primary me-4"><i data-feather="mail"></i></div>
+                        <div>
+                            <div class="small text-gray-500">Contact ons <i class="fas fa-xs fa-solid fa-arrow-up-right-from-square"></i></div>
+                            Vragen? Neem contact met ons op
+                        </div>
+                    </a>
+                </div>
+            </li>
+        
+            <!-- Alerts Dropdown-->
+                        <li class="nav-item dropdown no-caret d-none d-sm-block me-3 dropdown-notifications">
+                <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownAlerts" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <i data-feather="bell"></i>
+                                    </a>
+
+                <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up"
+                    style="min-width:560px;width:560px;max-width:min(92vw,640px);max-height:80vh;overflow-y:auto;"
+                    aria-labelledby="navbarDropdownAlerts">
+
+                    <h6 class="dropdown-header dropdown-notifications-header">
+                    <i class="me-2" data-feather="bell"></i>
+                    Meldingen
+                    </h6>
+
+                                                                
+                        <a class="dropdown-item dropdown-notifications-item read-alert"
+                        href="#"
+                        data-alert-id="28979"
+                        data-status="read"
+                        style="display:flex;align-items:flex-start;gap:12px;width:100%;">
+
+                        <div class="dropdown-notifications-item-icon bg-info"
+                            style="flex:0 0 36px;width:36px;height:36px;border-radius:9999px;display:flex;align-items:center;justify-content:center;">
+                            <i data-feather="info"></i>
+                        </div>
+
+                        <div class="dropdown-notifications-item-content"
+                            style="flex:1 1 auto;min-width:0;width:100%;max-width:none;">
+                            <div class="dropdown-notifications-item-content-details" style="margin-bottom:4px;opacity:.8;">
+                            6 november, 2025                            </div>
+                            <div class="dropdown-notifications-item-content-text"
+                                style="line-height:1.5;white-space:normal;overflow:visible;text-overflow:clip;overflow-wrap:anywhere;word-break:break-word;width:100%;max-width:none;">
+                            Upgrade je abonnement. Je abonnement verloopt over 2 dagen                            </div>
+                        </div>
+                        </a>
+                                        
+                    <a class="dropdown-item dropdown-notifications-footer" href="https://top-hockey.nl/meldingen/">
+                    Bekijk alle meldingen
+                    </a>
+                </div>
+            </li>
+
+
+            <!-- User Dropdown-->
+            <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
+                            <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    <img class="img-fluid" src="https://secure.gravatar.com/avatar/7d694aacad7d5c92c2d0fbaf2d77f904b58a1281d02d2cdee8f341bd38050e29?s=96&#038;d=mm&#038;r=g" alt="http://Olivier%20Luijendijk" />
+                </a>
+                <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownUserImage">
+                    <h6 class="dropdown-header d-flex align-items-center">
+                        <img class="dropdown-user-img" src="https://secure.gravatar.com/avatar/7d694aacad7d5c92c2d0fbaf2d77f904b58a1281d02d2cdee8f341bd38050e29?s=96&#038;d=mm&#038;r=g" alt="User Avatar" />
+                        <div class="dropdown-user-details">
+                            <div class="dropdown-user-details-name">Olivier Luijendijk</div>
+                            <div class="dropdown-user-details-email">ollielu2011@gmail.com</div>
+                        </div>
+                    </h6>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="https://top-hockey.nl/gegevens/">
+                        <div class="dropdown-item-icon"><i data-feather="settings"></i></div>
+                        Account
+                    </a>
+                    <a class="dropdown-item" href="https://top-hockey.nl/wp-login.php?action=logout&amp;redirect_to=https%3A%2F%2Ftop-hockey.nl&amp;_wpnonce=9e8e339d85">
+                        <div class="dropdown-item-icon"><i data-feather="log-out"></i></div>
+                        Uitloggen
+                    </a>
+                </div>
+            </li>
+        </ul>
+    </nav>
+
+    <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+            <nav class="sidenav shadow-right sidenav-dark">
+            <div class="sidenav-menu">
+                <div class="nav accordion" id="accordionSidenav">
+                    <div class="sidenav-menu-heading d-sm-none">Berichten</div>
+                    
+                    <a class="nav-link d-sm-none" href="https://top-hockey.nl/meldingen/" aria-label="Alerts">
+                        <div class="nav-link-icon"><i data-feather="bell"></i></div>
+                        Meldingen
+                                            </a>
+
+                    
+                    <!-- Home Section -->
+                    <div class="sidenav-menu-heading">Home</div>
+                    <a class="nav-link" href="https://top-hockey.nl/dashboard/" aria-label="Dashboard">
+                        <div class="nav-link-icon"><i data-feather="home"></i></div>
+                        Dashboard
+                    </a>
+
+                    <a class="nav-link d-sm-none" href="https://top-hockey.nl/ideeenhub/" aria-label="Alerts">
+                        <div class="nav-link-icon"><i data-feather="help-circle"></i></div>
+                        Idee├½nhub
+                    </a>
+
+
+                    <!-- Oefenstof Section -->
+                    <div class="sidenav-menu-heading">Oefenstof</div>
+                    <a class="nav-link" href="https://top-hockey.nl/oefeningen/" aria-label="Oefeningen">
+                        <div class="nav-link-icon"><i data-feather="database"></i></div>
+                        Oefeningen
+                    </a>
+                    <!--
+                    <a class="nav-link" href="https://top-hockey.nl/oefeningen/?zaalhockey_only=on" aria-label="Oefeningen">
+                        <div class="nav-link-icon"><i data-feather="maximize"></i></div>
+                        Zaalhockey 
+                    </a>
+                        -->
+                                                <a class="nav-link" href="https://top-hockey.nl/trainingen/" aria-label="Trainingen">
+                                <div class="nav-link-icon"><i data-feather="folder"></i></div>
+                                Trainingen
+                            </a>
+                                                                            <a class="nav-link" href="https://top-hockey.nl/abonnement-upgraden/" aria-label="Upgrade" >
+                                <div class="nav-link-icon"><i data-feather="lock"></i></div>
+                                Leerlijnen <span class="badge bg-orange text-light ms-auto">Upgrade</span>
+                            </a>
+                            
+                    <!-- Clubs  -->
+                    <div class="sidenav-menu-heading">Clubs</div>
+
+                                        <a class="nav-link" href="https://top-hockey.nl/clubs/" aria-label="Mijn club">
+                        <div class="nav-link-icon"><i data-feather="lock"></i></div>
+                        Mijn club <span class="badge bg-orange text-light ms-auto">Upgrade</span>
+                    </a>
+                                 
+                </div>  
+            </div>
+
+            <!-- Sidenav Footer-->
+            <div class="sidenav-footer">
+                <div class="sidenav-footer-content">
+                    <div class="sidenav-footer-subtitle">Ingelogd als:</div>
+                    <div class="sidenav-footer-title">Olivier Luijendijk</div>
+                </div>
+            </div>
+            </nav>
+        </div>
+        <div id="layoutSidenav_content">
+            <main>
+                
+<header class="page-header page-header-compact page-header-light border-bottom bg-white mb-4">
+    <div class="container-fluid px-4">
+        <div class="page-header-content">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-auto mb-3">
+                    <nav class="mt-4 rounded" aria-label="breadcrumb">
+                        <ol class="breadcrumb px-3 py-2 rounded mb-0">
+                            <li class="breadcrumb-item"><a href="https://top-hockey.nl/oefeningen/" title="Oefeningen overzicht">Oefeningen</a></li>
+                            <li class="breadcrumb-item active">Oefening <em>"Opbouwen met Mid Mid"</em></li>
+                        </ol>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+    
+<div class="container-fluid px-4">
+
+
+    <div class="row">
+        
+            </div>
+
+    <div class="row mb-3">
+        <div class="col-12 col-md-8 oefening">
+            <h3 class="p-1">Opbouwen met Mid Mid</h3>
+            <h5 class="p-1">Doel</h5>
+            <div class="p-1">Opbouwen met behulp van de mid mid</div>
+
+            
+            
+            
+            <h5 class="p-1">Fases in het hockeyspel (11-tal)</h5><div class="p-1"><p>Fase 1: BB (Uitverdedigen) VS NBB (Storen)</p></div>
+                    </div>
+        <div class="col-12 col-md-4">
+            <div class="card bg-light">
+                                    <img class="card-img-top img-fluid w-100" src="https://top-hockey.nl/wp-content/themes/generatepress_child/oefeningen/636655089drawing.png" alt="Opbouwen met Mid Mid" />
+                                <div class="card-body">
+                    <p class="card-text">
+                                                    <span class="tooltip-legenda">Legenda
+                                <span class="tooltiptext-legenda">
+                                    <a href="https://top-hockey.nl/wp-content/themes/generatepress_child/img/legenda.jpg" target="_blank">
+                                        <img src="https://top-hockey.nl/wp-content/themes/generatepress_child/img/legenda.jpg" class="img-responsive" alt="Legenda" />
+                                    </a>
+                                </span>
+                            </span>
+                                                <p>Aantal spelers: 15</p>
+                    </p>
+                                            <a href="#" class="btn btn-outline-indigo btn-sm favorite-button" role="button" title="Favoriet maken" data-exercise-id="931" data-toggle="tooltip" data-placement="bottom" data-trigger="hover"><i class="fas fa-solid fa-heart"></i></a>
+                        <a href="https://top-hockey.nl/oefeningen/edit/?oefening=931" class="btn btn-outline-warning btn-sm" role="button" title="Oefening wijzigen" data-toggle="tooltip" data-placement="bottom" data-trigger="hover"><i class="fas fa-solid fa-pen-to-square"></i></a>
+                        
+                        
+                        <a href="javascript:void(0);" class="btn btn-outline-dark btn-sm copy-link" data-link="https://top-hockey.nl/hockey-oefeningen/931/opbouwen-met-mid-mid" role="button" title="Oefening delen" data-toggle="tooltip" data-placement="bottom" data-trigger="hover">
+                            <i class="fas fa-solid fa-share-nodes"></i>
+                        </a>
+
+                                                                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <div class="col-12 col-md-8 ">
+                        
+            <div class="row">
+                <div id="comment-notification" class="alert alert-primary alert-icon" role="alert" style="display:none;">
+                    <button class="btn-close" type="button" data-bs-dismiss="alert" aria-label="Close"></button>
+                    <div class="alert-icon-aside">
+                        <i data-feather="bell"></i>
+                    </div>
+                    <div class="alert-icon-content" id="notification-content">
+                        <!-- This is where your notification messages will appear -->
+                    </div>
+                </div>
+            </div>
+
+            <div class="timeline">
+                                                    <div class="timeline-item" id="comment-form-container">
+                        <div class="timeline-item-marker">
+                            <div class="timeline-item-marker-indicator bg-primary-soft text-primary">
+                                <i data-feather="type"></i>
+                            </div>
+                        </div>
+                        <div class="timeline-item-content pt-0">
+                            <div class="card shadow-sm">
+                                <div class="card-body">
+                                <form id="comment-form" action="" method="post">
+                                    <input type="hidden" id="security" name="security" value="b81bac3dbb" /><input type="hidden" name="_wp_http_referer" value="/oefening/?oefening=931" />                                    <div class="form-group">
+                                        <label for="comment">Laat een reactie achter:</label>
+                                        <textarea class="form-control" id="comment" name="comment" rows="3" required></textarea>
+                                    </div>
+                                    <button type="submit" class="btn btn-primary mt-2">Reactie plaatsen</button>
+                                </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                                
+                            </div>
+        </div>
+    </div>
+
+</div> <!-- end <div class="container-fluid px-4"> -->
+<script>
+jQuery(document).ready(function($) {
+    // Define AJAX URL and Exercise ID
+    var ajax_comment_params = {
+        ajax_url: 'https://top-hockey.nl/wp-content/themes/generatepress_child/ajax/add_comment_exercise.php',
+        delete_comment_url: 'https://top-hockey.nl/wp-content/themes/generatepress_child/ajax/delete_comment_exercise.php',
+        exercise_id: 931    };
+
+    $('form#comment-form').on('submit', function(e) {
+        e.preventDefault();
+
+        var commentData = {
+            security: $('#comment-form').find('input[name="security"]').val(),
+            exercise_id: ajax_comment_params.exercise_id,
+            comment: $('#comment').val()
+        };
+
+        $.ajax({
+            type: 'POST',
+            url: ajax_comment_params.ajax_url,
+            data: commentData,
+            success: function(response) {
+                if (response.success) {
+                    // Display the notification
+                    $('#notification-content').html('Je reactie is succesvol geplaatst.');
+                    $('#comment-notification').show();
+                    var commentText = response.data.comment_text.replace(/\\/g, ''); // Remove any backslashes
+                   
+                    var commentDate = new Date(response.data.comment_date);
+                    var formattedDate = new Intl.DateTimeFormat('nl-NL', { day: 'numeric', month: 'short' }).format(commentDate);
+                
+                    $('#comment-form-container').after(
+                        '<div class="timeline-item d-flex justify-content-between align-items-start" id="comment-' + response.data.id + '">' +  // Use 'id' here
+                        '<div class="timeline-item-marker">' +
+                        '<div class="timeline-item-marker-text">' + formattedDate + '</div>' +
+                        '<div class="timeline-item-marker-indicator bg-primary-soft text-primary">' +
+                        '<img src="' + response.data.avatar_url + '" class="rounded-circle" style="width: 40px; height: 40px; object-fit: cover;">' +
+                        '</div>' +
+                        '</div>' +
+                        '<div class="timeline-item-content flex-grow-1 pt-0">' +
+                        '<div class="card shadow-sm">' +
+                        '<div class="card-body">' +
+                        '<h5 class="text-primary">' + response.data.user_name + '</h5>' +
+                        '<p>' + commentText + '</p>' +
+                        '</div>' +
+                        '</div>' +
+                        '</div>' +
+                        '<a href="javascript:void(0);" class="btn btn-outline-danger btn-sm delete-comment ms-3" data-comment-id="' + response.data.id + '" role="button" title="Verwijder reactie">' +  // Use 'id' here
+                        '<i class="fas fa-solid fa-trash"></i>' +
+                        '</a>' +
+                        '</div>'
+                    );
+
+                    // Clear the textarea
+                    $('#comment').val('');
+                } else {
+                    alert(response.data);
+                }
+            },
+            error: function() {
+                alert('Er is een fout opgetreden. Probeer het opnieuw.');
+            }
+        });
+    });
+
+    $(document).on('click', '.delete-comment', function() {
+        var commentId = $(this).data('comment-id');
+
+        if (confirm('Weet je zeker dat je deze reactie wilt verwijderen?')) {
+            $.ajax({
+                type: 'POST',
+                url: ajax_comment_params.delete_comment_url, // Ensure this points to /ajax/delete_comment_exercise.php
+                data: {
+                    comment_id: commentId,
+                    security: $('#comment-form').find('input[name="security"]').val()
+                },
+                success: function(response) {
+                    if (response.success) {
+                        $('#comment-' + commentId).remove();
+                        $('#notification-content').html('Reactie succesvol verwijderd.');
+                        $('#comment-notification').show();
+                    } else {
+                        alert(response.data);
+                    }
+                },
+                error: function() {
+                    alert('Er is een fout opgetreden bij het verwijderen van de reactie. Probeer het opnieuw.');
+                }
+            });
+        }
+    });
+});
+
+</script>
+        
+            <!-- Toast container -->
+            <div id="toast-container" style="position: fixed; top: 80px; right: 40px; z-index: 1050;">
+                <!-- Individual toasts will be dynamically inserted here -->
+            </div>
+        </main>
+      
+        <footer class="footer-admin mt-auto footer-light">
+            <div class="container-fluid px-4">
+                <div class="row">
+                    <div class="col-md-6 small">Copyright &copy; TOP-Hockey.nl By <a href="https://caddymarketing.nl/" target="_blank">Caddy Marketing</a></div>
+                    <div class="col-md-6 text-md-end small">
+                        <a href="https://top-hockey.nl/privacybeleid/">Privacybeleid</a>
+                        &middot;
+                        <a href="https://top-hockey.nl/algemene-voorwaarden/">Algemene voorwaarden</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+</div>
+
+<script>
+jQuery(document).ready(function($) {
+    // Handle favorite button click
+    jQuery(function($){
+        $('body').on('click', '.favorite-button', function(e){
+            e.preventDefault();
+
+            const $btn = $(this);
+            if ($btn.data('busy')) return;
+            $btn.data('busy', true);
+
+            const exerciseId      = $btn.data('exercise-id');
+            const trainingId      = $btn.data('training-id');
+            const periodizationId = $btn.data('periodization-id');
+
+            let type = null, id = null;
+            if (exerciseId != null)      { type = 'exercise';      id = exerciseId; }
+            else if (trainingId != null) { type = 'training';      id = trainingId; }
+            else if (periodizationId != null) { type = 'periodization'; id = periodizationId; }
+
+            if (!type || id == null) { $btn.data('busy', false); return; }
+
+            const endpoints = {
+            exercise:      "https://top-hockey.nl/wp-content/themes/generatepress_child/ajax/favorite_exercise.php",
+            training:      "https://top-hockey.nl/wp-content/themes/generatepress_child/ajax/favorite_training.php",
+            periodization: "https://top-hockey.nl/wp-content/themes/generatepress_child/ajax/favorite_periodization.php"
+            };
+
+            const payloads = {
+            exercise:      { exercise_id: id },
+            training:      { training_id: id },
+            periodization: { periodization_id: id }
+            };
+
+            const originalHtml = $btn.html();
+            $btn.prop('disabled', true).html('<i class="fas fa-spinner fa-spin"></i>');
+
+            const wasActive = $btn.hasClass('btn-indigo');
+            const optimisticAdd = !wasActive;
+            toggleBtn($btn, optimisticAdd);
+
+            $.ajax({
+            url: endpoints[type],
+            type: 'POST',
+            dataType: 'json',
+            timeout: 10000,
+            cache: false,
+            data: payloads[type]
+            })
+            .done(function(res){
+            if (!res || !res.success) {
+                toggleBtn($btn, wasActive);
+                createAndShowToast(res && res.message ? res.message : 'Actie mislukt.', {
+                title:'Melding', iconClass:'fas fa-solid fa-exclamation-circle', variant:'warning'
+                });
+                return;
+            }
+
+            if (res.action === 'added') {
+                toggleBtn($btn, true);
+                createAndShowToast(
+                (type==='exercise'?'Oefening':type==='training'?'Training':'Leerlijn') + ' toegevoegd aan favorieten.',
+                { title:'Favoriet', iconClass:'fas fa-solid fa-heart', variant:'success' }
+                );
+            } else if (res.action === 'removed') {
+                toggleBtn($btn, false);
+                createAndShowToast(
+                (type==='exercise'?'Oefening':type==='training'?'Training':'Leerlijn') + ' verwijderd van favorieten.',
+                { title:'Favoriet', iconClass:'fas fa-solid fa-heart', variant:'primary' }
+                );
+            } else {
+                toggleBtn($btn, wasActive);
+            }
+            })
+            .fail(function(){
+            toggleBtn($btn, wasActive);
+            createAndShowToast('Er is een fout opgetreden. Probeer het later opnieuw.', {
+                title:'Melding', iconClass:'fas fa-solid fa-exclamation-circle', variant:'danger'
+            });
+            })
+            .always(function(){
+            $btn.prop('disabled', false).html(originalHtml).data('busy', false);
+            });
+
+            function toggleBtn($b, active){
+            $b.toggleClass('btn-indigo', active)
+                .toggleClass('btn-outline-indigo', !active);
+            }
+        });
+    });
+
+    // Handle share button click
+    jQuery(function($){
+        const CHECK_URL = "https://top-hockey.nl/wp-content/themes/generatepress_child/ajax/check_membership.php";
+        const USER_ID   = "16065";
+        const CACHE_KEY = "th_membership_ok";
+        const CACHE_TTL = 5 * 60 * 1000;
+
+        function getCachedMembership(){
+            try{
+            const raw = localStorage.getItem(CACHE_KEY);
+            if (!raw) return null;
+            const obj = JSON.parse(raw);
+            if (!obj || typeof obj.t !== 'number') return null;
+            if (Date.now() - obj.t > CACHE_TTL){ localStorage.removeItem(CACHE_KEY); return null; }
+            return !!obj.ok;
+            }catch(e){ return null; }
+        }
+        function setCachedMembership(ok){
+            try{ localStorage.setItem(CACHE_KEY, JSON.stringify({ ok: !!ok, t: Date.now() })); }catch(e){}
+        }
+
+        function checkMembership(){
+            const cached = getCachedMembership();
+            if (cached !== null) return Promise.resolve({ ok: cached, message: null });
+            return new Promise(function(resolve, reject){
+            $.ajax({
+                url: CHECK_URL,
+                type: 'POST',
+                dataType: 'json',
+                timeout: 10000,
+                cache: false,
+                data: { user_id: USER_ID }
+            })
+            .done(function(res){
+                const ok = !!(res && res.success);
+                setCachedMembership(ok);
+                resolve({ ok, message: res && res.message });
+            })
+            .fail(function(){ reject(new Error('ajax-failed')); });
+            });
+        }
+
+        function copyText(text){
+            if (navigator.clipboard && navigator.clipboard.writeText){
+            return navigator.clipboard.writeText(text);
+            }
+            return new Promise(function(resolve, reject){
+            try{
+                const ta = document.createElement('textarea');
+                ta.value = text;
+                ta.style.position = 'fixed';
+                ta.style.opacity = '0';
+                document.body.appendChild(ta);
+                ta.focus();
+                ta.select();
+                const ok = document.execCommand('copy');
+                document.body.removeChild(ta);
+                ok ? resolve() : reject(new Error('execCommand-failed'));
+            }catch(e){ reject(e); }
+            });
+        }
+
+        $('body').on('click', '.copy-link', function(e){
+            e.preventDefault();
+            const $btn = $(this);
+            if ($btn.data('busy')) return;
+
+            const linkToCopy = $btn.data('link');
+            if (!linkToCopy) return;
+
+            $btn.data('busy', true);
+            const originalHtml = $btn.html();
+            $btn.prop('disabled', true).html('<i class="fas fa-spinner fa-spin"></i>');
+
+            checkMembership()
+            .then(function(res){
+                if (!res.ok){
+                createAndShowToast(res.message || 'Upgrade vereist.', { title:'Upgrade vereist', iconClass:'fas fa-solid fa-exclamation-circle', variant:'warning' });
+                throw new Error('no-membership');
+                }
+                return copyText(linkToCopy);
+            })
+            .then(function(){
+                createAndShowToast('De link is gekopieerd naar je klembord.', { title:'Link gekopieerd', iconClass:'fas fa-solid fa-share-nodes', variant:'success' });
+            })
+            .catch(function(err){
+                if (err && err.message !== 'no-membership'){
+                createAndShowToast('Kopi├½ren mislukt. Kopieer handmatig.', { title:'Melding', iconClass:'fas fa-solid fa-exclamation-circle', variant:'danger' });
+                }
+            })
+            .finally(function(){
+                $btn.prop('disabled', false).html(originalHtml).data('busy', false);
+            });
+        });
+    });
+
+    // Function to create and show a new toast
+    (function () {
+        function esc(s){ return String(s).replace(/[&<>"']/g, m => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;','\'':'&#39;'}[m])); }
+
+        function getToastContainer(placement){
+            let c = document.getElementById('toast-container');
+            if (!c){
+            c = document.createElement('div');
+            c.id = 'toast-container';
+            c.style.position = 'fixed';
+            c.style.zIndex = '1080';
+            c.style.pointerEvents = 'none';
+            document.body.appendChild(c);
+            }
+            c.style.top = c.style.bottom = c.style.left = c.style.right = '';
+            const offset = '1rem';
+            switch(placement){
+            case 'top-start':    c.style.top = offset;    c.style.left  = offset; break;
+            case 'top-center':   c.style.top = offset;    c.style.left  = '50%'; c.style.transform = 'translateX(-50%)'; break;
+            case 'bottom-end':   c.style.bottom = offset; c.style.right = offset; break;
+            case 'bottom-start': c.style.bottom = offset; c.style.left  = offset; break;
+            case 'bottom-center':c.style.bottom = offset; c.style.left  = '50%'; c.style.transform = 'translateX(-50%)'; break;
+            default:             c.style.top = offset;    c.style.right = offset; c.style.transform = '';
+            }
+            return c;
+        }
+
+        window.createAndShowToast = function (message, opts = {}) {
+            const {
+            title     = 'Favoriet',
+            iconClass = 'fas fa-solid fa-heart',
+            variant   = 'primary',
+            delay     = 5000,
+            autohide  = true,
+            placement = 'top-end',
+            max       = 3
+            } = opts;
+
+            const container = getToastContainer(placement);
+            const existing = container.querySelectorAll('.toast');
+            if (existing.length >= max) {
+            existing[0].dispatchEvent(new Event('close'));
+            existing[0].remove();
+            }
+
+            const id = 'toast-' + Date.now();
+            const headerBG   = `bg-${variant}`;
+            const headerText = (['light','warning'].includes(variant)) ? 'text-dark' : 'text-white';
+            const closeClass = (['light','warning'].includes(variant)) ? 'btn-close' : 'btn-close btn-close-white';
+
+            const html = `
+            <div id="${id}" class="toast mb-2 border-0 shadow"
+                role="status" aria-live="polite" aria-atomic="true"
+                style="pointer-events:auto;">
+                <div class="toast-header ${headerBG} ${headerText}">
+                <i class="${esc(iconClass)} me-2" aria-hidden="true"></i>
+                <strong class="me-auto">${esc(title)}</strong>
+                <small class="ms-2">Zojuist</small>
+                <button type="button" class="${closeClass} ms-2" data-bs-dismiss="toast" aria-label="Sluiten"></button>
+                </div>
+                <div class="toast-body">${esc(message)}</div>
+            </div>
+            `;
+
+            const wrapper = document.createElement('div');
+            wrapper.innerHTML = html.trim();
+            const toastEl = wrapper.firstElementChild;
+            container.appendChild(toastEl);
+
+            const toast = new bootstrap.Toast(toastEl, { delay, autohide });
+            toast.show();
+            toastEl.addEventListener('hidden.bs.toast', () => toastEl.remove());
+        };
+    })();
+
+     // Mark alert as read/unread
+     (function($){
+        function updateUnreadCount(delta){
+            var $badge = $('#unread-alert-count');
+            var current = parseInt($badge.text() || '0', 10) || 0;
+            var next = current + delta;
+
+            if (next <= 0){
+            $badge.remove();
+            return;
+            }
+            if (!$badge.length){
+            var $btn = $('#navbarDropdownAlerts');
+            $('<span id="unread-alert-count" class="badge bg-danger"></span>').text(next).appendTo($btn);
+            } else {
+            $badge.text(next);
+            }
+        }
+
+        $(document).on('click', '.dropdown-notifications .dropdown-menu a.dropdown-notifications-item', function(e){
+            e.preventDefault();
+
+            var $item = $(this);
+            if ($item.data('busy')) return;
+
+            var status = ($item.attr('data-status') || ($item.hasClass('unread-alert') ? 'unread' : 'read'));
+            if (status !== 'unread') {
+            return;
+            }
+
+            var id = parseInt($item.data('alert-id'), 10);
+            if (!id) return;
+
+            $item.data('busy', true).css('opacity', 0.6);
+
+            var $textEl  = $item.find('.dropdown-notifications-item-content-text');
+            var prevHtml = $textEl.html();
+
+            $item.removeClass('unread-alert').addClass('read-alert').attr('data-status','read');
+            $textEl.find('strong').contents().unwrap();
+            updateUnreadCount(-1);
+
+            $.ajax({
+            url: "https://top-hockey.nl/wp-admin/admin-ajax.php",
+            type: "POST",
+            dataType: "json",
+            timeout: 10000,
+            data: {
+                action: "mark_alert_as_read_unread",
+                alert_id: id,
+                action_type: "read"
+            }
+            })
+            .done(function(resp){
+            if (!resp || !resp.success){
+                $item.removeClass('read-alert').addClass('unread-alert').attr('data-status','unread');
+                $textEl.html(prevHtml);
+                updateUnreadCount(+1);
+            }
+            })
+            .fail(function(){
+                $item.removeClass('read-alert').addClass('unread-alert').attr('data-status','unread');
+                $textEl.html(prevHtml);
+                updateUnreadCount(+1);
+            })
+            .always(function(){
+            $item.data('busy', false).css('opacity', '');
+            });
+        });
+    })(jQuery);
+
+    // Update unread count
+    function updateUnreadCount(delta) {
+        var $btn   = $('#navbarDropdownAlerts');
+        var $badge = $('#unread-alert-count');
+
+        var current = parseInt($badge.text(), 10);
+        if (isNaN(current)) current = 0;
+
+        var next = current + Number(delta || 0);
+        if (next <= 0) { if ($badge.length) $badge.remove(); return; }
+
+        if (!$badge.length) {
+            $badge = $('<span id="unread-alert-count" class="badge bg-danger"></span>').appendTo($btn);
+        }
+        $badge.text(next);
+        }
+});
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" type="text/javascript" defer></script>
+<script src="https://top-hockey.nl/wp-content/themes/generatepress_child/sb-admin-pro/dist/js/scripts.js" defer></script>
+</body>
+</html>
